@@ -161,9 +161,32 @@ make clean
 
 ---
 
+## 🤖 Prompt para Hermes Agent
+
+Si usas Hermes Agent, copia y pega esto en el chat para que lo instale por ti:
+
+```text
+/background bash -c "
+  git clone https://github.com/yosoyignicion/ignisky-forge.git ~/ignisky-forge &&
+  cd ~/ignisky-forge &&
+  chmod +x ignisky-forge.sh &&
+  sudo make install
+"
+
+# Una vez instalado, ejecuta:
+ignisky-forge --list
+ignisky-forge --health
+```
+
+> **💎 ¿Tienes la versión premium de Gumroad?** Sustituye el script descargado del ZIP
+> por el que viene en el pack (`ignisky-forge.sh`) y repite la instalación.
+> Las funciones premium se desbloquean automáticamente.
+
+---
+
 ## 📜 Licencia
 
-MIT © 2025 — **IgnicionDev** (yosoyignicion)
+MIT © 2026 — **IgnicionDev** (yosoyignicion)
 
 ---
 
