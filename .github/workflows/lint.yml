@@ -13,7 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Run ShellCheck
-        uses: ludeeus/action-shellcheck@master
-        with:
-          scandir: '.'
-          severity: warning
+        run: |
+          shellcheck --severity=style $(find . -name '*.sh' -not -path './.git/*')
+        shell: bash
