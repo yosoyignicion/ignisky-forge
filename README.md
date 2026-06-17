@@ -15,7 +15,7 @@
 ## 📸 Capturas
 
 <p align="center">
-  <img src="2026-06-17_17-04.png" alt="ignisky-forge --health" width="720px">
+  <img src="picture.png" alt="ignisky-forge --health" width="720px">
   <br>
   <sub>Lista de perfiles Hermes disponibles 🔥</sub>
 </p>
