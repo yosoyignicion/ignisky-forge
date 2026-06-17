@@ -1,11 +1,12 @@
 # 🔥 ignisky-forge — La forja de tus perfiles Hermes
 
-[![Version](https://img.shields.io/badge/version-1.0.0-red?style=flat-square&color=ED2100)](https://github.com/yosoyignicion/ignisky-forge)
-[![License](https://img.shields.io/badge/license-MIT-white?style=flat-square&color=E5E5E5)](LICENSE)
-[![ShellCheck](https://img.shields.io/badge/shellcheck-passing-brightgreen?style=flat-square&color=00C864)](.github/workflows/lint.yml)
-[![Hermes](https://img.shields.io/badge/hermes-agent-compatible-black?style=flat-square&color=050505)](https://hermes-agent.nousresearch.com)
-[![Ignición](https://img.shields.io/badge/ignisky-✨-red?style=flat-square&color=ED2100)](https://github.com/yosoyignicion)
-[![Gumroad](https://img.shields.io/badge/premium-pack-orange?style=flat-square&color=FFC800)](https://ignaciodev.gumroad.com/l/ignisky-forge)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-ED2100?style=flat-square" alt="MIT"></a>
+  <a href="https://hermes-agent.nousresearch.com"><img src="https://img.shields.io/badge/Hermes-0.16%2B-050505?style=flat-square" alt="Hermes"></a>
+  <a href="https://github.com/yosoyignicion"><img src="https://img.shields.io/badge/Ignición-Integrations-ED2100?style=flat-square" alt="Ignición"></a>
+  <a href=".github/workflows/lint.yml"><img src="https://img.shields.io/badge/ShellCheck-Passing-ED2100?style=flat-square" alt="ShellCheck"></a>
+  <a href="https://ignaciodev.gumroad.com/l/ignisky-forge"><img src="https://img.shields.io/badge/Premium-15€-050505?style=flat-square&logo=gumroad&logoColor=white" alt="Premium"></a>
+</p>
 
 > **ignisky-forge** es la herramienta definitiva para gestionar, clonar, fusionar y sincronizar perfiles de **Hermes Agent**. Como una forja para herreros digitales, moldea y mantiene tus perfiles con precisión artesanal.
 
