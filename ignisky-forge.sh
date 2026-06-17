@@ -649,7 +649,7 @@ premium_footer() {
     echo ""
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     echo -e "  ${BOLD}💎 Esta función está disponible en el pack premium${NC}"
-    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-forge  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-forge-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 }
 
@@ -877,7 +877,7 @@ interactive_menu() {
                 echo -e "  ${GRAY}│${NC}  📸  ${BOLD}forge:snap${NC}      ${GRAY}· Restore point completo con timestamp${NC}"
                 echo ""
                 echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-                echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-forge${NC}"
+                echo -e "  ${BOLD}👉 https://ignaciodev.gumroad.com/l/ignisky-forge-premium${NC}"
                 echo -e "  ${BOLD}🏷️  Cupón: ${RED}IGNICION25${NC} ${GRAY}(25% OFF → 11.25€)${NC}"
                 echo -e "  ${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
                 echo ""
@@ -937,7 +937,7 @@ usage() {
     echo -e "  ${SCRIPT_NAME} --backup profile-laguna1-v1"
     echo ""
     echo -e "${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-    echo -e "${BOLD}💎 https://ignaciodev.gumroad.com/l/ignisky-forge  ·  Cupón: ${RED}IGNICION25${NC}"
+    echo -e "${BOLD}💎 https://ignaciodev.gumroad.com/l/ignisky-forge-premium  ·  Cupón: ${RED}IGNICION25${NC}"
     echo -e "${GRAY}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
     exit 0
 }
