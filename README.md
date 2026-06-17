@@ -192,8 +192,9 @@ MIT © 2026 — **IgnicionDev** (yosoyignicion)
 
 <p align="center">
   <strong>🔥 ignisky-* · El ecosistema Ignición para Hermes Agent</strong><br>
-  <sub>Creado por <a href="https://github.com/yosoyignicion">IgnicionDev</a> · 
-  <a href="https://ignaciodev.gumroad.com/l/ignisky-forge">Pack Premium</a> · 
+  <sub>Hecho con ❤️ por <a href="https://github.com/yosoyignicion">yosoyignicion</a> · Diseñado por Hermes 🤖</sub>
+  <br>
+  <sub><a href="https://ignaciodev.gumroad.com/l/ignisky-forge">Pack Premium</a> · 
   Cupón: <code>IGNICION25</code></sub>
 </p>
 
