@@ -5,7 +5,7 @@
 [![ShellCheck](https://img.shields.io/badge/shellcheck-passing-brightgreen?style=flat-square&color=00C864)](.github/workflows/lint.yml)
 [![Hermes](https://img.shields.io/badge/hermes-agent-compatible-black?style=flat-square&color=050505)](https://hermes-agent.nousresearch.com)
 [![Ignición](https://img.shields.io/badge/ignisky-✨-red?style=flat-square&color=ED2100)](https://github.com/yosoyignicion)
-[![Gumroad](https://img.shields.io/badge/premium-pack-orange?style=flat-square&color=FFC800)](https://gumroad.com/l/...)
+[![Gumroad](https://img.shields.io/badge/premium-pack-orange?style=flat-square&color=FFC800)](https://ignaciodev.gumroad.com/l/lpyqm)
 
 > **ignisky-forge** es la herramienta definitiva para gestionar, clonar, fusionar y sincronizar perfiles de **Hermes Agent**. Como una forja para herreros digitales, moldea y mantiene tus perfiles con precisión artesanal.
 
@@ -160,7 +160,7 @@ MIT © 2025 — **IgnicionDev** (yosoyignicion)
 <p align="center">
   <strong>🔥 ignisky-* · El ecosistema Ignición para Hermes Agent</strong><br>
   <sub>Creado por <a href="https://github.com/yosoyignicion">IgnicionDev</a> · 
-  <a href="https://gumroad.com/l/...">Pack Premium</a> · 
+  <a href="https://ignaciodev.gumroad.com/l/lpyqm">Pack Premium</a> · 
   Cupón: <code>IGNICION25</code></sub>
 </p>
 
