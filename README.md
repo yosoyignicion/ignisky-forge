@@ -16,7 +16,7 @@
 <p align="center">
   <img src="2026-06-17_17-04.png" alt="ignisky-forge --health" width="720px">
   <br>
-  <sub>Health check: auditoría de perfiles con nota A-F 🟢🟡🟠</sub>
+  <sub>Lista de perfiles Hermes disponibles 🔥</sub>
 </p>
 
 ---
