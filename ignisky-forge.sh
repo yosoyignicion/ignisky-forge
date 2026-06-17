@@ -30,8 +30,8 @@ FORGE_BACKUP_DIR="${BACKUP_BASE}/forge"
 
 ESC=$(printf '\\033')
 RED="${ESC}[38;2;237;33;0m"
-DARK="${ESC}[38;2;5;5;5m"
-LIGHT="${ESC}[38;2;229;229;229m"
+_DARK="${ESC}[38;2;5;5;5m"
+_LIGHT="${ESC}[38;2;229;229;229m"
 GRAY="${ESC}[38;2;100;100;100m"
 GREEN="${ESC}[38;2;0;200;100m"
 YELLOW="${ESC}[38;2;255;200;0m"
@@ -55,7 +55,7 @@ dim()    { echo -e "${GRAY}$*${NC}"; }
 draw_box() {
     local title="$1"
     local width=58
-    local padding=2
+    local _padding=2
     echo -e "${RED}${BOLD}┌─${title} ${NC}${GRAY}$(printf '─%.0s' $(seq 1 $((width - ${#title} - 4))))${NC}"
 }
 
@@ -151,7 +151,7 @@ select_profile() {
     local i=1
     declare -a pnames
     for p in "${profiles[@]}"; do
-        pnames[$i]="$p"
+        pnames[i]="$p"
         echo -e "  ${GRAY}│${NC}  ${BOLD}$i${NC}  $p"
         ((i++))
     done
@@ -341,14 +341,14 @@ cmd_diff() {
     local common=()
 
     for skill in "${skills_a[@]}"; do
-        if [[ " ${skills_b[*]} " =~ " ${skill} " ]]; then
+        if [[ " ${skills_b[*]} " =~ ${skill}  ]]; then
             common+=("$skill")
         else
             in_a_not_b+=("$skill")
         fi
     done
     for skill in "${skills_b[@]}"; do
-        if ! [[ " ${skills_a[*]} " =~ " ${skill} " ]]; then
+        if ! [[ " ${skills_a[*]} " =~ ${skill}  ]]; then
             in_b_not_a+=("$skill")
         fi
     done
@@ -866,7 +866,7 @@ interactive_menu() {
                 echo ""
                 read -r -p "  ${RED}›${NC} Presiona Enter para continuar..." _
                 ;;
-            8)
+            9)
                 header "💎 ignisky-forge Premium"
                 echo -e "  ${BOLD}Funciones exclusivas de la forja:${NC}"
                 echo ""
